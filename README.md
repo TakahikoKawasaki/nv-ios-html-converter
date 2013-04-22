@@ -9,10 +9,10 @@ This project contains HTMLConverter class that converts a plain text
 into an HTML text.
 
   * Convert some characters into entity references.
-  * Convert newlines to <br/>.
-  * Convert HTTP(S) URLS to <a href='...'>...</a>.
-  * Convert #hash to <a href='https://twitter.com/search?q=%23hash'>#hash</a>.
-  * Convert @mention to <a href='https://twitter.com/mention'>@mention</a>
+  * Convert newlines to `<br/>` tags.
+  * Convert HTTP(S) URLS to `<a>` tags.
+  * Convert #hash to `<a href='https://twitter.com/search?q=%23hash'>#hash</a>`.
+  * Convert @mention to `<a href='https://twitter.com/mention'>@mention</a>`
 
 HTMLConverter has properties to control conversions above. For example,
 Twitter-related conversions are performed only when twitterFlag property
